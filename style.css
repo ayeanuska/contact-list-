@@ -21,6 +21,7 @@
 
 .sliderContainer {
   top: 400px;
+  background: rgba(250, 246, 246, 0.545);
 }
 
 .slider {
@@ -31,10 +32,13 @@
 
 .slider::-webkit-slider-thumb {
   appearance: none;
-  background: radial-gradient(rgb(179, 79, 79), rgb(30, 30, 239));
+  /* background: radial-gradient(rgb(179, 79, 79), rgb(30, 30, 239)); */
   width: 30px;
   height: 30px;
   border-radius: 50%;
+
+  background: url(./assets/arrow-right-circle.svg);
+  background-size: cover;
 }
 .slider-label {
   top: 50%;
