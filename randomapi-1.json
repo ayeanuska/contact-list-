@@ -1,0 +1,152 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Ryder", "last": "Mitchell" },
+      "location": {
+        "street": { "number": 4696, "name": "3rd St" },
+        "city": "Borden",
+        "state": "Saskatchewan",
+        "country": "Canada",
+        "postcode": "I0J 6E1",
+        "coordinates": { "latitude": "-70.3394", "longitude": "-17.7147" },
+        "timezone": { "offset": "+9:30", "description": "Adelaide, Darwin" }
+      },
+      "email": "ryder.mitchell@example.com",
+      "login": {
+        "uuid": "dae711e4-a50e-4c3f-8927-da048ab94703",
+        "username": "blackladybug838",
+        "password": "munch",
+        "salt": "Qwb3Vp7r",
+        "md5": "0bc06407daa1583e4f7e0ce70d69090f",
+        "sha1": "cb4d7c6671e0490fbef17803c81f1d967aca919b",
+        "sha256": "ebcdc6b7acd192f58aaa4c4aa713754e2b635ee971f2d2ed95a754a409a7777e"
+      },
+      "dob": { "date": "1982-06-05T01:44:34.053Z", "age": 42 },
+      "registered": { "date": "2002-10-19T05:06:11.886Z", "age": 22 },
+      "phone": "O67 P24-0234",
+      "cell": "U95 D06-4566",
+      "id": { "name": "SIN", "value": "992675397" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/30.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/30.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/30.jpg"
+      },
+      "nat": "CA"
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Ms", "first": "Magdalena", "last": "Cvejić" },
+      "location": {
+        "street": { "number": 9365, "name": "Mažićka" },
+        "city": "Kraljevo",
+        "state": "Podunavlje",
+        "country": "Serbia",
+        "postcode": 19806,
+        "coordinates": { "latitude": "-27.4618", "longitude": "-19.1072" },
+        "timezone": { "offset": "-10:00", "description": "Hawaii" }
+      },
+      "email": "magdalena.cvejic@example.com",
+      "login": {
+        "uuid": "ce810b69-abff-43ab-85fc-505b31c871f1",
+        "username": "goldenswan976",
+        "password": "louie",
+        "salt": "PQ1CmpWD",
+        "md5": "a39d30dd73218552fa040c7af6e4d539",
+        "sha1": "fc9ff9ec6e0a3fbdcf2d0ab4fc471444fc505faf",
+        "sha256": "106c8c73d591e2f083236cb4eb932dca81fdb4bf06b8f25853f2f63a2b488fe0"
+      },
+      "dob": { "date": "1972-04-01T01:35:41.966Z", "age": 52 },
+      "registered": { "date": "2014-03-21T11:55:36.395Z", "age": 10 },
+      "phone": "024-7330-550",
+      "cell": "065-6145-251",
+      "id": { "name": "SID", "value": "494404828" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/10.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/10.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/10.jpg"
+      },
+      "nat": "RS"
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Walter", "last": "Aabø" },
+      "location": {
+        "street": { "number": 3246, "name": "Martin Skatvedts vei" },
+        "city": "Ballangen",
+        "state": "Buskerud",
+        "country": "Norway",
+        "postcode": "2150",
+        "coordinates": { "latitude": "78.5817", "longitude": "-3.4659" },
+        "timezone": {
+          "offset": "+10:00",
+          "description": "Eastern Australia, Guam, Vladivostok"
+        }
+      },
+      "email": "walter.aabo@example.com",
+      "login": {
+        "uuid": "581aad73-4c78-45df-b916-7c5608908927",
+        "username": "redbird938",
+        "password": "lovelove",
+        "salt": "Bga4gyYW",
+        "md5": "52ce603744f0e9991e1184473d8010fe",
+        "sha1": "2066b896e09626555bb4834171fc58ea0b426d06",
+        "sha256": "aead101ce7ae70fa98ac9b8bc31dcf62a18f3676bc122a63e16d3721e460bdbd"
+      },
+      "dob": { "date": "1965-10-25T03:41:21.299Z", "age": 59 },
+      "registered": { "date": "2002-11-15T00:01:16.626Z", "age": 22 },
+      "phone": "69886303",
+      "cell": "95454268",
+      "id": { "name": "FN", "value": "25106538142" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/41.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/41.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/41.jpg"
+      },
+      "nat": "NO"
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Ms", "first": "Rosemarie", "last": "Oldenburg" },
+      "location": {
+        "street": { "number": 8011, "name": "Wiesenstraße" },
+        "city": "Backnang",
+        "state": "Schleswig-Holstein",
+        "country": "Germany",
+        "postcode": 25891,
+        "coordinates": { "latitude": "12.9498", "longitude": "-107.9287" },
+        "timezone": {
+          "offset": "-8:00",
+          "description": "Pacific Time (US & Canada)"
+        }
+      },
+      "email": "rosemarie.oldenburg@example.com",
+      "login": {
+        "uuid": "927f6707-d4ec-42ff-b580-29710e16dc8a",
+        "username": "orangezebra749",
+        "password": "cornwall",
+        "salt": "5MQoiPj8",
+        "md5": "66fcdac9e28197ddaf9fe14a5bbb0132",
+        "sha1": "3652d1b6dd146d18d89bc5319cb2c496e337a847",
+        "sha256": "d80ebc9441a0672b6e464bb362da89c7a6feef393dcfba872b6169fb1d99d039"
+      },
+      "dob": { "date": "1971-04-05T23:13:21.544Z", "age": 53 },
+      "registered": { "date": "2016-03-06T13:44:36.086Z", "age": 8 },
+      "phone": "0555-2367713",
+      "cell": "0176-7367478",
+      "id": { "name": "SVNR", "value": "62 050471 O 685" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/61.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/61.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/61.jpg"
+      },
+      "nat": "DE"
+    }
+  ],
+  "info": {
+    "seed": "e050b05c9b71fc3d",
+    "results": 4,
+    "page": 1,
+    "version": "1.4"
+  }
+}
