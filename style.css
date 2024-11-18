@@ -1,0 +1,45 @@
+.wrapper {
+  background: url(./assets/bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.phone {
+  background: url(./assets/mbg.jpg);
+  background-size: cover;
+}
+.phone {
+  width: 300px;
+  height: 600px;
+}
+.phone::-webkit-scrollbar {
+  display: none;
+}
+
+.notification {
+  background-color: rgba(0, 0, 0, 0.222);
+}
+
+.sliderContainer {
+  top: 400px;
+}
+
+.slider {
+  appearance: none;
+  background-color: transparent;
+  z-index: 99;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  background: radial-gradient(rgb(179, 79, 79), rgb(30, 30, 239));
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.slider-label {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  pointer-events: none;
+}
