@@ -60,7 +60,7 @@
           <div
             class="d-flex flex-column justify-content-center align-items-center"
           >
-            <div class="p-3 rounded-3 text-danger mt-4">
+            <div class="p-3 rounded-3 text-danger mt-4 bg-white">
               <i
                 class="bi bi-person-bounding-box fs-1"
                 onclick="displayScreen('contactListScreen')"
@@ -72,7 +72,7 @@
         <!-- contact screen -->
         <main id="contactListScreen" class="screen">
           <!-- header -->
-          <div class="p-3 text-primary">
+          <div div class="p-2 text-dark text-center">
             <h1 class="fw-bolder">Contacts</h1>
           </div>
 
@@ -84,7 +84,9 @@
               class="form-control rounded-pill"
               placeholder="Search contact"
             />
-            <i class="bi bi-search-heart-fill position-absolute text-dark"></i>
+            <i
+              class="bi bi-search-heart-fill position-absolute text-dark searchIcon fs-0.5"
+            ></i>
           </div>
 
           <!-- spinner -->
@@ -114,7 +116,7 @@
                     aria-controls="collapseOne"
                   >
                     <img
-                      src="assets/mbg.jpg"
+                      src="assets/man1.jpg"
                       alt=""
                       width="50px"
                       height="50px"
@@ -122,7 +124,7 @@
                     />
                     <div class="ms-2">
                       <div class="fw-bolder">User name</div>
-                      <small>STREET NAME</small>
+                      <small>street name</small>
                     </div>
                   </button>
                 </h2>
@@ -137,17 +139,17 @@
                   >
                     <div>
                       <img
-                        src="assets/mbg.jpg"
+                        src="assets/man1.jpg"
                         alt=""
                         width="100px"
                         height="100px"
-                        rounded-circle
+                        class="rounded-circle"
                       />
                     </div>
 
                     <div class="d-flex flex-column">
                       <div class="fw-bolder">User Name</div>
-                      <small> Street Name </small>
+                      <small> street name </small>
                       <div>
                         <i class="bi bi-phone-fill"></i>
                         <span>0384744794</span>
@@ -171,7 +173,7 @@
                     aria-controls="collapseTwo"
                   >
                     <img
-                      src="assets/mbg.jpg"
+                      src="assets/man2.jpg"
                       alt=""
                       width="50px"
                       height="50px"
@@ -186,7 +188,7 @@
 
                 <div
                   id="collapseTwo"
-                  class="accordion-collapse collapse show"
+                  class="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
                   <div
@@ -194,11 +196,11 @@
                   >
                     <div>
                       <img
-                        src="assets/mbg.jpg"
+                        src="assets/man2.jpg"
                         alt=""
                         width="100px"
                         height="100px"
-                        rounded-circle
+                        class="rounded-circle"
                       />
                     </div>
 

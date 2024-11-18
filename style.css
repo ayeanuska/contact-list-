@@ -8,7 +8,7 @@
   background-size: cover;
 }
 .phone {
-  width: 300px;
+  width: 350px;
   height: 600px;
 }
 .phone::-webkit-scrollbar {
@@ -58,6 +58,6 @@
   backdrop-filter: blur(1px);
 }
 .searchIcon {
-  top: 3px;
-  right: 12px;
+  top: 14px;
+  right: 19px;
 }
