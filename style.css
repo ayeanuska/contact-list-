@@ -20,7 +20,7 @@
 }
 
 .sliderContainer {
-  top: 400px;
+  top: 250px;
   background: rgba(250, 246, 246, 0.545);
 }
 
@@ -70,4 +70,19 @@
   position: sticky;
   top: 0px;
   z-index: 999;
+}
+
+.lockScreenTime {
+  font-size: 4rem;
+  font-weight: bold;
+
+  appearance: none;
+  /* background: rgba(230, 223, 223, 0.427); */
+  margin: 0px 10px;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

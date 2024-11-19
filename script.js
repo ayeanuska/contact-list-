@@ -105,14 +105,15 @@ const displaycontactList = (userList) => {
               <div class="fw-bolder">${item.name.title} ${item.name.first} ${item.name.last}</div>
               <small>${item.location.street.number} ${item.location.street.name} ${item.location.city} ${item.location.country}  </small>
               <div>
-              <a href="tel:${item.cell}>
+              <a href="tel:${item.cell}">
                 <i class="bi bi-phone-fill"></i>
                 <span>${item.cell}</span>
+                </a>
               </div>
               <div>
-              <a href= "mailto:${item.email}>
+              <a href= "mailto:${item.email}">
         
-                <i class="bi bi-envelope-at"> ${item.email}</i>
+                <i class="bi bi-envelope-at"> ${item.email}</i> </a>
               </div>
             </div>
           </div>
@@ -182,7 +183,10 @@ const updateClockTime = () => {
   for (item of clockTimesElements) {
     const curr_date = new Date();
 
-    item.innerText = curr_date.getHours() + ":" + curr_date.getMinutes();
+    item.innerText =
+      curr_date.getHours().toString().padStart(2, "0") +
+      ":" +
+      curr_date.getMinutes().toString().padStart(2, "0");
   }
 };
 
