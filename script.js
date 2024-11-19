@@ -39,10 +39,10 @@ const displayScreen = (screenName) => {
 
   for (screen of screens) {
     screen.style.display = "none";
-
-    const mainScreen = document.getElementById(screenName);
-    mainScreen.style.display = "block";
   }
+
+  const mainScreen = document.getElementById(screenName);
+  mainScreen.style.display = "block";
 };
 
 //display contact contact list
@@ -105,10 +105,13 @@ const displaycontactList = (userList) => {
               <div class="fw-bolder">${item.name.title} ${item.name.first} ${item.name.last}</div>
               <small>${item.location.street.number} ${item.location.street.name} ${item.location.city} ${item.location.country}  </small>
               <div>
+              <a href="tel:${item.cell}>
                 <i class="bi bi-phone-fill"></i>
                 <span>${item.cell}</span>
               </div>
               <div>
+              <a href= "mailto:${item.email}>
+        
                 <i class="bi bi-envelope-at"> ${item.email}</i>
               </div>
             </div>
@@ -162,5 +165,27 @@ const displayContactListScreen = async () => {
   displaycontactList(contactList);
 };
 
+//display lockscreen on double click
+
+const displaylockScreen = () => {
+  slider.value = 0;
+
+  displayScreen("lockScreen");
+};
 // displayScreen("contactListScreen");
 // displaycontactList(contactList);
+
+//update time
+
+const updateClockTime = () => {
+  const clockTimesElements = document.getElementsByClassName("clockTime");
+  for (item of clockTimesElements) {
+    const curr_date = new Date();
+
+    item.innerText = curr_date.getHours() + ":" + curr_date.getMinutes();
+  }
+};
+
+updateClockTime();
+
+setInterval(updateClockTime, 1000);
