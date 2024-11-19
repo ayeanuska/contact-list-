@@ -61,3 +61,13 @@
   top: 14px;
   right: 19px;
 }
+
+.icon {
+  cursor: pointer;
+}
+
+#notification {
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}

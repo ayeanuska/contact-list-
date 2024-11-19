@@ -12,7 +12,7 @@ let contactList = [];
 slider.addEventListener("change", (e) => {
   const { value } = e.target;
 
-  if (value < 100) {
+  if (value < 80) {
     slider.value = 0;
   } else {
     displayAppScreen();
