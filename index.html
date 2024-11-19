@@ -37,7 +37,7 @@
         </div>
 
         <!-- lockscreen -->
-        <main id="locklScreen" class="screen h-100 position-relative">
+        <main id="lockScreen" class="screen h-100 position-relative">
           <div
             class="sliderContainer p-3 rounded-4 m-4 position-relative d-flex"
           >
@@ -83,6 +83,7 @@
               type="text"
               class="form-control rounded-pill"
               placeholder="Search contact"
+              id="search"
             />
             <i
               class="bi bi-search-heart-fill position-absolute text-dark searchIcon fs-0.5"
@@ -90,7 +91,7 @@
           </div>
 
           <!-- spinner -->
-          <div class="text-center">
+          <div id="spinner" class="text-center">
             <div class="spinner-border" role="status">
               <span class="visually-hidden">Loading...</span>
             </div>

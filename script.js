@@ -1,7 +1,9 @@
-const apiURL = "https://randomuser.me/api?results=2";
+const apiURL = "https://randomuser.me/api?results=10";
 
 //unlock slider
 const slider = document.getElementById("slider");
+
+const searchInputField = document.getElementById("search");
 
 //initial contact list array
 let contactList = [];
@@ -15,6 +17,20 @@ slider.addEventListener("change", (e) => {
   } else {
     displayAppScreen();
   }
+});
+
+searchInputField.addEventListener("keyup", (e) => {
+  console.log(e.target.value);
+  //check if the input value is the users full name
+
+  const filtereContactList = contactList.filter((item) => {
+    const fullName =
+      item.name.first.toLowerCase() + " " + item.name.last.toLowerCase();
+
+    return fullName.includes(e.target.value.toLowerCase());
+  });
+  console.log(filtereContactList);
+  displaycontactList(filtereContactList);
 });
 
 //general function to display screen
@@ -103,20 +119,43 @@ const displaycontactList = (userList) => {
     cA.innerHTML += accItem;
   });
 };
+
+// display contact list screen
+
 const displayAppScreen = () => {
   displayScreen("appScreen");
 };
 
-// to display conatct list + populate contact lsit
+// to display conatct list
 
 const displayContactListScreen = async () => {
   displayScreen("contactListScreen");
 
+  //before fetching
+
+  //general function to display spinner and contact list.
+  const spinnerElement = document.getElementById("spinner");
+
+  const contactListElement = document.getElementById("contactList");
+
+  // 2.show spinner and hide contact list
+
+  spinnerElement.style.display = "block";
+  contactListElement.style.display = "none";
+
+  //fetching contact data
   const response = await fetch(apiURL);
 
   const data = await response.json();
   console.log(1000, data.results);
   contactList = data.results;
+
+  //after fetching
+  // 1.hide spinner
+  // 2.show contact list
+
+  spinnerElement.style.display = "none";
+  contactListElement.style.display = "block";
 
   // populate contact list
 
