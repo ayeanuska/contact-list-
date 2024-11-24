@@ -192,4 +192,4 @@ const updateClockTime = () => {
 
 updateClockTime();
 
-setInterval(updateClockTime, 1000);
+setInterval(updateClockTime, 60000); // calling per min (60000ms= 1min)
